@@ -89,7 +89,7 @@
         align-items: center;
         margin-top: 0;
         padding: 50px 100px;
-        background-color: #F2F2CD;         
+        background-color: rgb(238,241,194);         
     }
 
     #lezioni .row>.left,
@@ -103,9 +103,10 @@
     #steps .row>.left,
     #steps .row>.central,
     #steps .row>.right {
-    float: none;
-    width: 100%;
-    padding: 30px 0;
+        float: none;
+        width: 100%;
+        padding: 50px 100px;
+        font-size: 23px;
     }
 
     #steps .row{
@@ -115,5 +116,36 @@
     #steps{
         text-align: center;
     }
+
+    #why {
+        text-align: center;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        width: 100%;
+        padding: 0 100px;
+        font-size: 23px;
+    }
+
+    #why .row img {
+        background-color: #428bca;
+        border-radius: 50%;
+        padding: 30px
+    }
+
+    #why .row{
+        background-color: rgb(238,241,194);
+        padding: 50px 0;
+    }
+
+    #why hr{
+        color: black;
+        border: 2px solid black;
+    }
 }
 
+
+  
+  
