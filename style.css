@@ -83,10 +83,15 @@
         box-sizing: border-box;
     }
 
+    .container.grey{
+        background-color: white;
+    }
+
     #lezioni .row{
         margin-top: 0;
         padding: 50px 100px;
-        background-color: rgb(130, 220, 222);         
+        background-color: rgb(100, 151, 152);  
+        color: white;       
     }
 
     #lezioni h1{
@@ -98,6 +103,18 @@
         width: 50%;
         padding: 20px 0;
         font-size: 23px;
+    }
+
+    #steps .row{
+        background-color: white;
+    }
+    
+    #steps{
+        color: rgb(100, 151, 152);
+    }
+
+    #steps h1{
+        padding-bottom: 50px;
     }
 
 }
