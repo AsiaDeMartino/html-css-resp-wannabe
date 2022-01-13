@@ -72,6 +72,36 @@
     clear: both;
   }
 
+
+
+/* TABLET */
+
+@media screen and (max-width: 900px){
+    *{
+        margin: 0 auto; 
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #lezioni .row{
+        margin-top: 0;
+        padding: 50px 100px;
+        background-color: rgb(130, 220, 222);         
+    }
+
+    #lezioni h1{
+        padding-bottom: 20px;
+    }
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 50%;
+        padding: 20px 0;
+        font-size: 23px;
+    }
+
+}
+
   
     /* MOBILE */
 
@@ -147,5 +177,4 @@
 }
 
 
-  
-  
+    
