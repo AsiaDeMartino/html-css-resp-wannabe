@@ -92,20 +92,28 @@
         background-color: #F2F2CD;         
     }
 
-    #lezioni .row>.left,#lezioni .row>.right{
+    #lezioni .row>.left,
+    #lezioni .row>.right {
         float: none;
         width: 100%;
         padding: 20px 0;
         font-size: 23px;
     }
 
-    #steps .row>.left, #steps .row>.center, #steps .row>.right {
-        width: 100%;
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+    float: none;
+    width: 100%;
+    padding: 30px 0;
     }
 
     #steps .row{
         background-color: white;
     }
     
+    #steps{
+        text-align: center;
+    }
 }
 
