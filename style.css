@@ -117,6 +117,25 @@
         padding-bottom: 50px;
     }
 
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        display: inline-block;
+        width: 33%;
+       padding: 0 30px;
+        font-size: 20px;
+    }
+
+    #why .row{
+        background-color: rgb(100, 151, 152);
+        padding: 50px 0;
+        color: white;
+    }
+
+    #why hr{
+        display: none;
+    }
+
 }
 
   
@@ -128,6 +147,7 @@
         margin: 0 auto; 
         padding: 0;
         box-sizing: border-box;
+        color: black;
     }
 
     #lezioni .row{
@@ -188,8 +208,9 @@
     }
 
     #why hr{
-        color: black;
+        color: black; 
         border: 2px solid black;
+        display: block;
     }
 }
 
