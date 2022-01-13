@@ -98,6 +98,14 @@
         padding: 20px 0;
         font-size: 23px;
     }
- 
+
+    #steps .row>.left, #steps .row>.center, #steps .row>.right {
+        width: 100%;
+    }
+
+    #steps .row{
+        background-color: white;
+    }
+    
 }
 
